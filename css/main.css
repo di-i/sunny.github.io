@@ -107,6 +107,7 @@ h3 {
 .form-select {
     margin-right: 2vw;
     margin-bottom: 2vh;
+    outline: none;
 }
 
 .form-select:nth-child(2n) {
@@ -120,6 +121,7 @@ form {
 }
 
 select {
+    outline: none;
     width: 16vw;
     font-size: 15px;
     font-family: "Inter", sans-serif;
@@ -133,6 +135,8 @@ select {
 
 }
 
+
+
 .form-btn {
     text-decoration: none;
     border: none;
@@ -144,6 +148,25 @@ select {
     color: #fff;
     margin-top: 6vh;
     outline: none;
+    border: none
+}
+
+.form-btn:hover {
+    text-decoration: none;
+    border: none;
+    opacity: 0.6;
+    color: #fff;
+
+
+}
+
+.form-btn:active {
+    text-decoration: none;
+    border: none;
+    opacity: 0.3;
+    color: #fff;
+
+
 }
 
 
@@ -238,7 +261,7 @@ select {
 
 }
 
-.gallery__link-name:hover{
+.gallery__link-name:hover {
     text-decoration: none;
 }
 
@@ -261,7 +284,7 @@ select {
     letter-spacing: 0.03em;
     text-decoration: none;
     margin-top: -2vh;
-    
+
 }
 
 
@@ -387,11 +410,10 @@ select {
 
 .stories-list__item img {
     height: 40vh;
-    
-}
-.stories-list__item-photo {
 
 }
+
+.stories-list__item-photo {}
 
 .stories-list__item-text {
     margin-top: 10vh;
@@ -413,33 +435,94 @@ select {
 
 }
 
+.footer {
+    background-color: #f9f9fb;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+}
 
 
-.footer-info {
 
+.footer-info {}
+
+.footer-info__logo {
+    margin-bottom: 3vh;
 }
 
 .footer-info__text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #848484;
+    margin-bottom: 6vh;
+    width: 25vw;
 
 }
 
 .footer-info__rights {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    color: #848484;
 
 }
 
 .footer-list {
+    margin-top: 2vh;
 
 }
 
 .footer-list__item {
+    margin-bottom: 1vh;
 
 }
 
+.footer-list__item:last-child {
+    margin-bottom: 0;
+}
+
 .footer-list__item.title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 3vh;
 
 }
 
 .footer-list__item-link {
+    text-decoration: none;
+    color: #848484;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+
 
 }
 
+.footer-list__item-link:hover {
+    text-decoration: none;
+    color: #848484;
+    opacity: 0.6;
+
+}
+
+.footer-list__item-link:active {
+    text-decoration: none;
+    color: #848484;
+    opacity: 0.3;
+
+
+}
+
+
+.footer-social {
+    margin-top: 2vh;
+
+    border-top: 1px solid #e5e5e6;
+    padding-top: 4vh;
+}
+
+.fa {
+    margin-right: 2vw;
+}
