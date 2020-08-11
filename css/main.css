@@ -188,12 +188,14 @@ select {
     -moz-appearance: none;
     /* for Chrome */
     -webkit-appearance: none;
-  }
-  
-  /* For IE10 */
-  select::-ms-expand {
+}
+
+/* For IE10 */
+select::-ms-expand {
     display: none;
-  }
+}
+
+
 
 
 
@@ -363,6 +365,10 @@ select {
     text-decoration: none;
     margin-top: -2vh;
 
+}
+
+.gallery img {
+    width: 23vw;
 }
 
 
@@ -633,8 +639,12 @@ select {
         margin-left: 20vw;
     }
 
-    .offer__hero {
-        width: 60vw;
+
+    .offer__hero,
+    .explore img,
+    .guides img {
+
+        width: 50vw;
     }
 }
 
@@ -664,8 +674,15 @@ select {
 
     }
 
-    .gallery__link:not(:first-child) {
-        display: none;
+    .gallery_link {
+        width: 70vw;
+    }
+
+
+
+    .gallery img {
+        width: 100%;
+        height: 100%;
     }
 
     .offer__hero {
@@ -730,13 +747,14 @@ select {
 
     .stories-list__item {
 
-        width: 50vw;
+        width: 100%;
+        height: 100%;
         margin-bottom: 12vh;
     }
 
     .stories-list__item img {
-
-        height: 90vh;
+        width: 100%;
+        height: 100%;
     }
 
 
@@ -763,14 +781,10 @@ select {
 @media screen and (max-width: 767px) {
     .stories-list__item {
 
-        width: 40vw;
+
         margin-bottom: 8vh;
     }
 
-    .stories-list__item img {
-
-        height: 50vh;
-    }
 
 
 
@@ -884,104 +898,153 @@ select {
 
 
 
-.offer-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .offer-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offer-info__title {
+        margin-top: 40px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .offer-info__subtitle {
+        margin-bottom: 70px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .form {}
+
+    .form-select {
+        margin-right: 0;
+        margin-bottom: 2vh;
+        margin-left: 0;
+        outline: none;
+        margin: 0;
+    }
+
+
+
+
+    form {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    select {
+        outline: none;
+        width: 50vw;
+        font-size: 15px;
+        font-family: "Inter", sans-serif;
+        padding-right: 0;
+
+    }
+
+    .form-select {
+        margin-bottom: 2vh;
+    }
+
+    select:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.6 ease;
+    }
+
+
+
+    .form-btn {
+        text-decoration: none;
+        border: none;
+        outline: none;
+        display: inline-block;
+        background-color: #fb8f1d;
+        border-radius: 5px;
+        padding: 2vh 4vw;
+        color: #fff;
+        margin-top: 6vh;
+        outline: none;
+        border: none
+    }
+
+    .form-btn:hover {
+        text-decoration: none;
+        border: none;
+        opacity: 0.6;
+        color: #fff;
+
+
+    }
+
+    .form-btn:active {
+        text-decoration: none;
+        border: none;
+        opacity: 0.3;
+        color: #fff;
+
+
+    }
+
+
 }
 
-.offer-info__title {
-    margin-top: 40px;
-    margin-bottom: 70px;
-    text-align: center;
-}
+@media screen and (max-width: 575px) {
 
-.offer-info__subtitle {
-    margin-bottom: 70px;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-}
+    h2 {
+        font-size: 20px;
+    }
 
-.form {}
+    h3,
+    .testimonials-info__title {
+        font-size: 16px;
+        margin-top: 5vh;
+        margin-bottom: 1vh;
+    }
 
-.form-select {
-    margin-right: 0;
-    margin-bottom: 2vh;
-    margin-left: 0;
-    outline: none;
-    margin: 0;
-}
+    .gallery__link-name,
+    .gallery__link-city,
+    .gallery__link-country {
+        font-size: 14px;
+        margin-left: 3vw;
+    }
 
+    .testimonials-info__text,
+    .testimonials-info__name,
+    .testimonials-info__note,
+    .stories-list__item-desc,
+    .stories-list__item-btn{
+        font-size: 14px;
+    }
 
+    .header,
+    .explore,
+    .destination,
+    .gallery,
+    .guides,
+    .testimonials,
+    .stories {
+        margin-bottom: 8vh;
+    }
 
+    select {
+        width: 90vw;
+    }
 
-form {
-    outline: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-select {
-    outline: none;
-    width: 50vw;
-    font-size: 15px;
-    font-family: "Inter", sans-serif;
-    padding-right: 0;
-
-}
-
-.form-select {
-    margin-bottom: 2vh;
-}
-
-select:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: all 0.6 ease;
-}
-
-
-
-.form-btn {
-    text-decoration: none;
-    border: none;
-    outline: none;
-    display: inline-block;
-    background-color: #fb8f1d;
-    border-radius: 5px;
-    padding: 2vh 4vw;
-    color: #fff;
-    margin-top: 6vh;
-    outline: none;
-    border: none
-}
-
-.form-btn:hover {
-    text-decoration: none;
-    border: none;
-    opacity: 0.6;
-    color: #fff;
-
+    .offer__hero,
+    .explore img,
+    .guides img {
+        margin-top: 4vh;
+        width: 90vw;
+    }
 
 }
-
-.form-btn:active {
-    text-decoration: none;
-    border: none;
-    opacity: 0.3;
-    color: #fff;
-
-
-}
-
-
-}
-
-@media screen and (max-width: 575px) {}
