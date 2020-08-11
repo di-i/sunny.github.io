@@ -368,7 +368,7 @@ select::-ms-expand {
 }
 
 .gallery img {
-    width: 23vw;
+    width: 22vw;
 }
 
 
@@ -809,7 +809,7 @@ select::-ms-expand {
         z-index: 2;
         right: 0;
         width: 20vw;
-        height: 60vh;
+        height: 70vh;
         transition: all 0.4s ease 0s;
         transform: translateX(250px);
         background: rgba(116, 214, 51, 0.6);
