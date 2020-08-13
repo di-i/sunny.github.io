@@ -819,7 +819,7 @@ select::-ms-expand {
     .sidebar-nav {
         position: absolute;
         top: 0;
-        width: 250px;
+        width: 40vw;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -1022,7 +1022,7 @@ select::-ms-expand {
     .testimonials-info__name,
     .testimonials-info__note,
     .stories-list__item-desc,
-    .stories-list__item-btn{
+    .stories-list__item-btn {
         font-size: 14px;
     }
 
@@ -1047,4 +1047,34 @@ select::-ms-expand {
         width: 90vw;
     }
 
+    #sidebar-wrapper.active {
+
+        width: 80vw;
+    }
+
+    .destination-info__link,
+    .stories-info__link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 250px) {
+    .gallery__link-name,
+    .gallery__link-city {
+        font-size: 10px;
+        padding-top: 6vw;
+        margin-left: 0;
+    }
+
+    .gallery__link-country{
+        font-size: 10px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 200px) {
+    #sidebar-wrapper.active {
+
+        width: 100vw;
+    }
 }
