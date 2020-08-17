@@ -1,3 +1,7 @@
+
+
+/*/ =================================== common ==================================== /*/
+
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Mulish', sans-serif;
@@ -42,11 +46,14 @@ h3 {
     font-size: 36px;
 }
 
+/*/ =================================== / common  ==================================== /*/
+
+/*/ ===================================  header  ==================================== /*/
 
 .menu,
 #sidebar-wrapper,
 .menu-toggle,
-.fa {
+.fa-bars {
     display: none;
 }
 
@@ -126,7 +133,8 @@ h3 {
     margin-top: 79px;
 }
 
-.offer-info {}
+
+
 
 .offer-info__title {
     margin-top: 40px;
@@ -140,7 +148,7 @@ h3 {
     font-size: 22px;
 }
 
-.form {}
+/*/ ======================== form   ======================== /*/
 
 .form-select {
     margin-right: 2vw;
@@ -152,7 +160,7 @@ h3 {
     margin-right: 0;
 }
 
-.form-input {}
+
 
 form {
     outline: none;
@@ -197,9 +205,6 @@ select::-ms-expand {
 
 
 
-
-
-
 .form-btn {
     text-decoration: none;
     border: none;
@@ -232,8 +237,16 @@ select::-ms-expand {
 
 }
 
+/*/ ======================== / form   ======================== /*/
 
 
+
+/*/ =================================== / header  ==================================== /*/
+
+
+
+
+/*/ =================================== explore  ==================================== /*/
 
 .explore {
     margin-bottom: 25vh;
@@ -252,21 +265,27 @@ select::-ms-expand {
 
 .explore-info__text {
     margin-top: 6vh;
+    margin-bottom: 6vh;
+
+
     font-family: 'Mulish', sans-serif;
     font-weight: 200;
     font-size: 17px;
     color: #7d7987;
-    margin-bottom: 6vh;
+   
 
 }
 
 .explore-info__btn {
-    text-decoration: none;
-    background-color: #fb8f1d;
-    border-radius: 5px;
-    padding: 12px 42px;
-    color: #fff;
+
     display: inline-block;
+    padding: 12px 42px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    background-color: #fb8f1d;
+    color: #fff;
+    
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -277,6 +296,7 @@ select::-ms-expand {
 
 .explore-info__btn:hover {
     text-decoration: none;
+
     color: #fff;
     opacity: 0.6;
 }
@@ -287,22 +307,28 @@ select::-ms-expand {
     opacity: 0.3;
 }
 
-.destination {}
+/*/ =================================== / explore  ==================================== /*/
 
+
+
+
+/*/ =================================== destination  ==================================== /*/
 
 .destination-info {
     margin-bottom: 2vh;
 }
 
-.destination-info__title {}
+
 
 
 .destination-info__link {
     color: #fb8f1d;
+    text-decoration: none;
+
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 600;
-    text-decoration: none;
+    
 
 }
 
@@ -310,6 +336,13 @@ select::-ms-expand {
     text-decoration: none;
     color: rgba(251, 143, 29, 0.6);
 }
+
+
+/*/ =================================== / destination  ==================================== /*/
+
+
+
+/*/ =================================== gallery ==================================== /*/
 
 
 .gallery {
@@ -331,47 +364,32 @@ select::-ms-expand {
     transition: all 0.8s ease-in;
 }
 
-.gallery__link-photo {}
+
 
 .gallery__link-name {
     margin-top: -10vh;
-    text-decoration: none;
-    flex-direction: column;
     margin-left: 0.5vw;
 
-}
+    flex-direction: column;
 
-.gallery__link-name:hover {
     text-decoration: none;
-}
-
-.gallery__link-city {
-    color: #042521;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    margin-top: 1vh;
+    
+  
 
 }
 
-.gallery__link-country {
-    color: #80918e;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    margin-top: -2vh;
-
-}
 
 .gallery img {
-    width: 22vw;
+   max-width: 100%;
+
 }
 
 
+
+/*/ ===================================  / gallery ==================================== /*/
+
+
+/*/ =================================== guides ==================================== /*/
 
 .guides {
     margin-bottom: 25vh;
@@ -386,22 +404,27 @@ select::-ms-expand {
 
 .guides-info__text {
     margin-top: 6vh;
+    margin-bottom: 6vh;
+    width: 25vw;
+
+
     font-family: 'Mulish', sans-serif;
     font-weight: 200;
     font-size: 17px;
     color: #7d7987;
-    margin-bottom: 6vh;
-    width: 25vw;
-
+  
 }
 
 .guides-info__btn {
-    text-decoration: none;
-    background-color: #fb8f1d;
-    border-radius: 5px;
-    padding: 12px 42px;
-    color: #fff;
     display: inline-block;
+    padding: 12px 42px;
+    text-decoration: none;
+    border-radius: 5px;
+
+    background-color: #fb8f1d;
+    color: #fff;
+   
+    
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -424,11 +447,17 @@ select::-ms-expand {
 }
 
 
+/*/ =================================== / guides ==================================== /*/
+
+
+
+/*/ =================================== testimonials  ==================================== /*/
+
 .testimonials {
     margin-bottom: 25vh;
 }
 
-.testimonials-info {}
+
 
 .testimonials-info__title {
     margin-bottom: 20vh;
@@ -461,7 +490,11 @@ select::-ms-expand {
 
 }
 
+/*/ ===================================  / testimonials  ==================================== /*/
 
+
+
+/*/ =================================== stories  ==================================== /*/
 
 .stories {
     margin-bottom: 25vh;
@@ -471,7 +504,7 @@ select::-ms-expand {
     margin-bottom: 2vh;
 }
 
-.stories-info__title {}
+
 
 
 .stories-info__link {
@@ -500,25 +533,27 @@ select::-ms-expand {
 
 .stories-list__item {
     flex-direction: column;
-    width: 20vw;
+   
 }
 
 
-.stories-list__item img {
-    height: 40vh;
 
-}
-
-.stories-list__item-photo {}
 
 .stories-list__item-text {
     margin-top: 10vh;
+    padding-right: 2vw;
+}
+
+.stories-list__item-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 .stories-list__item-desc {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
 
 }
 
@@ -542,6 +577,15 @@ select::-ms-expand {
     text-decoration: none;
 }
 
+
+
+/*/ ===================================  / stories  ==================================== /*/
+
+
+
+
+/*/ =================================== footer  ==================================== /*/
+
 .footer {
     background-color: #f9f9fb;
     padding-top: 8vh;
@@ -550,7 +594,7 @@ select::-ms-expand {
 
 
 
-.footer-info {}
+
 
 .footer-info__logo {
     margin-bottom: 3vh;
@@ -633,6 +677,13 @@ select::-ms-expand {
 
 
 
+/*/ ===================================  / footer  ==================================== /*/
+
+
+
+
+
+/*/ ============================== media (max-width: 1199px)  ============================ /*/
 
 @media screen and (max-width: 1199px) {
     .explore-info {
@@ -646,25 +697,37 @@ select::-ms-expand {
 
         width: 50vw;
     }
+
+
+    .stories-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
+
+/*/ ==============================  / media (max-width: 1199px)  ============================ /*/
+
+
+
+
+/*/ ============================== media (max-width: 992px)  ============================ /*/
 
 @media screen and (max-width: 992px) {
 
     select {
-        outline: none;
         width: 16vw;
         font-size: 15px;
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-        color: #afb0b9;
+
         padding: 2vh 2vw;
         padding-right: 4.5vw;
-        border-radius: 5px;
-        border: 2px solid rgba(196, 196, 196, 0.3);
-        box-shadow: 0px 4px 4px 0px rgba(175, 176, 185, 0.25);
-        background-color: #fff;
 
+
+    }
+
+    .form-select:nth-child(2n) {
+        margin-right: 2vw;
     }
 
     .gallery {
@@ -739,24 +802,20 @@ select::-ms-expand {
         width: 50vw;
     }
 
-    .stories-list {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
     .stories-list__item {
 
         width: 100%;
-        height: 100%;
-        margin-bottom: 12vh;
+
+
     }
 
     .stories-list__item img {
-        width: 100%;
-        height: 100%;
-    }
 
+        max-width: 100%;
+        max-height: 100%;
+
+    }
 
     .stories-list__item-desc {
 
@@ -776,6 +835,15 @@ select::-ms-expand {
 
 
 }
+
+
+
+/*/ ============================== / media (max-width: 992px)  ============================ /*/
+
+
+
+
+/*/ ============================== media (max-width: 767px)  ============================ /*/
 
 
 @media screen and (max-width: 767px) {
@@ -885,7 +953,6 @@ select::-ms-expand {
         opacity: 0.6;
     }
 
-    .menu-toggle:hover {}
 
     .fa-bars {
         color: #fb8f1d;
@@ -918,7 +985,7 @@ select::-ms-expand {
         font-size: 22px;
     }
 
-    .form {}
+
 
     .form-select {
         margin-right: 0;
@@ -927,6 +994,7 @@ select::-ms-expand {
         outline: none;
         margin: 0;
     }
+
 
 
 
@@ -950,6 +1018,10 @@ select::-ms-expand {
 
     .form-select {
         margin-bottom: 2vh;
+    }
+
+    .form-select:nth-child(2n) {
+        margin-right: 0;
     }
 
     select:hover {
@@ -998,6 +1070,15 @@ select::-ms-expand {
 
 }
 
+
+/*/ ============================== / media (max-width: 767px)  ============================ /*/
+
+
+
+
+/*/ ============================== media (max-width: 575px)  ============================ /*/
+
+
 @media screen and (max-width: 575px) {
 
     h2 {
@@ -1011,12 +1092,6 @@ select::-ms-expand {
         margin-bottom: 1vh;
     }
 
-    .gallery__link-name,
-    .gallery__link-city,
-    .gallery__link-country {
-        font-size: 14px;
-        margin-left: 3vw;
-    }
 
     .testimonials-info__text,
     .testimonials-info__name,
@@ -1058,7 +1133,17 @@ select::-ms-expand {
     }
 }
 
+
+
+/*/ ==============================  / media (max-width: 575px)  ============================ /*/
+
+
+
+/*/ ============================== media (max-width: 250px)  ============================ /*/
+
+
 @media (max-width: 250px) {
+
     .gallery__link-name,
     .gallery__link-city {
         font-size: 10px;
@@ -1066,11 +1151,17 @@ select::-ms-expand {
         margin-left: 0;
     }
 
-    .gallery__link-country{
+    .gallery__link-country {
         font-size: 10px;
         margin-left: 0;
     }
 }
+
+
+/*/ ==============================  / media (max-width: 250px)  ============================ /*/
+
+
+/*/ ============================== media (max-width: 200px)  ============================ /*/
 
 @media (max-width: 200px) {
     #sidebar-wrapper.active {
@@ -1078,3 +1169,6 @@ select::-ms-expand {
         width: 100vw;
     }
 }
+
+
+/*/ ============================== / media (max-width: 200px)  ============================ /*/
