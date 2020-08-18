@@ -6,7 +6,7 @@ Test website. Adaptive landing page of travel site.
 
 1. Learn how to work with frameworks and libraries:
    - Bootstrap 4.5
-   - Jquery
+   - jQuery
    - Animate CSS
    - Wow JS
    
