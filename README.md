@@ -57,19 +57,14 @@ Test website. Adaptive landing page of travel site.
  ![tablet_tour_site](https://user-images.githubusercontent.com/55539864/90430855-cd46a580-e0d0-11ea-9a2e-a1e7e24a0780.gif)
  
  >***Fixed burger menu***
- 
- ![tour_site_menu](https://user-images.githubusercontent.com/55539864/90433860-316b6880-e0d5-11ea-940d-095c7284d9f5.gif)
+ ![Screen Shot 2020-08-18 at 10 37 21 PM](https://user-images.githubusercontent.com/55539864/90557651-82499280-e1a3-11ea-83ad-f12b40559ed0.png)
  
  
   ### **Mobile**:   
   
-  >***Header***
-    
- ![mobile_form](https://user-images.githubusercontent.com/55539864/90436753-e4d65c00-e0d9-11ea-96a1-68079785da49.gif)
- 
-  >***Footer***
   
-  ![footer](https://user-images.githubusercontent.com/55539864/90436722-da1bc700-e0d9-11ea-9f0a-5137d6477187.gif)
+ 
+ 
  
  
    
