@@ -29,16 +29,12 @@ Test website. Adaptive landing page of travel site.
 
 
 
-### **Desktop**: 
-
-
 
 
  >*Header*   
           
             
-            
-        
+              
         
 ![Screen Shot 2020-08-17 at 3 38 30 PM](https://user-images.githubusercontent.com/55539864/90429218-f0238a80-e0cd-11ea-886b-2b9c31f5f9fc.png)
 
@@ -50,7 +46,7 @@ Test website. Adaptive landing page of travel site.
 
 ![Screen Shot 2020-08-17 at 3 39 22 PM](https://user-images.githubusercontent.com/55539864/90429247-02052d80-e0ce-11ea-9ea7-b0817f9e6533.png)
 
- ### **Tablet**: 
+
  
  >***Animate CSS***
  
@@ -60,7 +56,7 @@ Test website. Adaptive landing page of travel site.
  ![Screen Shot 2020-08-18 at 10 37 21 PM](https://user-images.githubusercontent.com/55539864/90557651-82499280-e1a3-11ea-83ad-f12b40559ed0.png)
  
  
-  ### **Mobile**:   
+
   
   
  
